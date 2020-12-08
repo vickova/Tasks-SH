@@ -1,0 +1,1 @@
+college studio picture english phone laptop bag book plug socket fan brush television cup hangman door floor roof light table paper money contract chain voice chair invest business leader check
