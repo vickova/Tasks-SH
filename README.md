@@ -14,3 +14,8 @@ git add . -used to add the files present.
 git commit -m "file name"-used as a shorthand form to commit.
 gitignore-Containers for files that you want to intentionally ignore.
 README.md-Description of your codes and files
+
+#Images in README
+
+![](Tasks-SH/img_git/Screenshot%20(35).png)
+<img src="img_git/Screenshot%20(35).png" width="800">
