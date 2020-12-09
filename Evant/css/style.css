@@ -61,7 +61,7 @@ a{
 }
 .top{
 	height:860px;
-	background: linear-gradient(rgba(40,55,71,.97), rgba(40,55,71,.97)), url(video-bg.jpg) no-repeat;
+	background: linear-gradient(rgba(40,55,71,.97), rgba(40,55,71,.97)), url(../img/video-bg.jpg) no-repeat;
 	background-size: cover;
 	z-index:5;
 	transition-duration:0.95s;
@@ -390,7 +390,7 @@ header{
 }
 
 .map{
-	background:url(map-bg.svg)
+	background:url(../img/map-bg.svg)
 }
 .all{
 	display:block;
