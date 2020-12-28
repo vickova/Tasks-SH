@@ -55,7 +55,7 @@
 		position:fixed;
 	}
 	#tag{
-		font-size:50px;
+		font-size:40px;
 		width:400px;
 	}
 
@@ -86,12 +86,33 @@ nav ul{
 nav #chat{
 	float: right;
 }
+@media (max-width:600px){
+	header{
+		position:absolute;
+		margin-top:100px;
+	}
+	#image{
+	margin-left:-100px;
+	}
+	#tag{
+	font-size: 30px;
+	width:200px;
+	}
+	#chat{
+		display:none;
+	}
+	#logo{
+		display:none;
+	}
+	#aside{
+		background:#0392BF;
+	}
+
+}
 #tag{
 	margin-top: -320px;
 	position:absolute;
 	margin-left:120px;
-	font-size: 30px;
-	width:200px;
 	font-family:sans-serif;
 }
 #img{
@@ -99,6 +120,7 @@ nav #chat{
 	width:100%;
 	height:auto;
 }
+
 .col{
 	width:25px;
 	height:25px;
