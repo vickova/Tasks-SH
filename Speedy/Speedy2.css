@@ -1,107 +1,91 @@
-@media(min-width: 800px;){
-	#sid{
-		width:100%;
-		float:left;
-	}
-	#cover{
-		width:100%;
-	}
-	#container{
+.conntainer{
+	margin:auto;
+	max-width:800px; 
+}
+@media (min-width:600px){
+	#contain{
 		background:#0392BF;
+		overflow:hidden;
 	}
+	#image{
+		float:left;
+		width:50%;
+	}
+	.sid{
+		float:right;
+		width:50%;
+		padding-left: 40px;
+		box-sizing:border-box;
+	}
+	#one{
+	position:relative;
+	overflow: hidden;
+	margin-top:50px;
+	height: 700px;
+	width:100%;
+	margin-top:10px;
+	}
+	#img{
+		width:;
+	}
+	#side{
+		width:95%;
+		float:right;
+		overflow: hidden;
+	}
+	#aside{
+		width:5%;
+		height:100%;
+		float:left;
+		background:#B3D4E0;
+		position:absolute;
+	}
+	#aside ul{
+		margin-top:550px;
+		margin-right:20px;
+	}
+	#logo{
+	background-color:#ED48BA;
+	text-align: center;
+	position: absolute;
+	width:40px;
+	margin: 20px;
+	border-radius:20px;
+}
+	body{
+		position:fixed;
+	}
+
 }
 body{
-	height:auto;
-}
-#All{
-	float:right;
-	width:95%;
-	margin-left:-30px;
-	background:#0392BF;
-	font-family:cursive;
-	height:auto;
 	color:#B3D4E0;
-}
-aside{
-	float:left;
-	width:5%;
-	margin:0px;
-}
-#chat{
-	float:right;
-	width:30%;
-	margin-right: -250px;
-}
-nav{
-	float:left;
-	width:70%;
-}
-#head li{
-	display:inline;
-	margin-left: 50px;
 	font-family:cursive;
+}
+li{
+	display:inline;
 }
 a{
 	text-decoration:none;
 	color:#B3D4E0;
 }
-#image{
-	float: left;
-	width:100%;
-	background:url("skate-1.png") no-repeat 200%;
-	background-size:cover;
-	text-align:center;
-	/*-webkit-filter:hue-rotate(45deg);
-	filter:hue-rotate(45deg);*/
-	/*filter:drop-shadow(0 0 0 rgba(0, 0, 0, .1));*/
-	background-color:#0392BF;
-	background-size:600px 900px;
-	object-fit:cover;
-	object-position:-20% 0;
+nav li{
+	display:inline;
+	margin-left:30px;
+	margin-right:0px;
 }
-#speedy{
-	width:100%;
+nav ul{
+	float:left;
 }
-.sid{
-	float:right;
-	width:45%;
-	margin-left:50px;
+nav #chat{
+	float: right;
 }
 #image h2{
+	margin-top: -300px;
+	position:absolute;
+	margin-left:120px;
 	font-size: 50px;
-	margin-top: 400px;
 	width:400px;
 	font-family:sans-serif;
-}
-#cover{
-	width:50%;
-}
-
-header{
-	margin-left:50px;
-}
-#container{
-	background:#B3D4E0;
-	position:fixed;
-}
-#contain{
-	background: #0392BF;
-	width:95%;
-	float:right;
-}
-.ic{
-	width:100%;
-}
-#logo{
-	background-color:#ED48BA;
-	width:40px;
-	margin: 20px;
-	border-radius:20px;
-}
-.log ul{
-	margin-top:450px;
-	margin-right:20px;
-	list-style:none;
 }
 .col{
 	width:25px;
@@ -112,6 +96,7 @@ header{
 .desig{
 	display:inline-block;
 	width:100%;
+	box-sizing:border-box;
 }
 .desig h3{
 	float:left;
@@ -119,21 +104,11 @@ header{
 .desig ul{
 	float:right;
 	margin-right:300px;
-	margin-top:-40px;
+	margin-top:20px;
 }
 .desig li{
 	display: inline-flex;
 	margin-left: 10px;
-}
-.last{
-	margin-top:30px;
-}
-select{
-	background-color:#0392BF;
-	color:#B3D4E0;
-	border:1px #B3D4E0 solid;
-	width:100px;
-	height:30px;
 }
 #lst{
 	display:inline-flex;
@@ -153,9 +128,27 @@ select{
 #fourth{
 	background-color:#ffffff
 }
+#log ul{
+	margin-right:-100px;
+	float:right;
+}
+#aside img{
+	float:left;
+}
+
+.last{
+	margin-top:30px;
+}
 #click{
 	background-color:#ED48BA;
 	width:20%;
 	text-align: center;
+	height:30px;
+}
+select{
+	background-color:#0392BF;
+	color:#B3D4E0;
+	border:1px #B3D4E0 solid;
+	width:100px;
 	height:30px;
 }

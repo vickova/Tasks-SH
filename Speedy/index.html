@@ -7,70 +7,103 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="Speedy2.css">
-		
 	</head>
 	<body>
-		<div id="container">
-			<div id="contain">
-				<header>
-					<nav>
-						<ul id="head">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Notifications</a></li>
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">Others</a></li>
-						</ul>
-					</nav>
-					<p id="chat"><img src="user.png" alt="chart" width="30"></p>
-				</header>
-				<div id="All">
-					<div id="cover">
-						<div id="image">
-							<h2>SPEEDY SQUADS</h2>
-						</div>
-					</div>
-					<div id="speedy">
-						<div class="sid">
-							<h2>PONNKN SPEEDY SQUADS</h2>
-							<p>APTNKyn 800-595-00</p>
-							<p>3 500 py6.</p>
-							<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabo remagn ane aliquyam erat, sed diam voluptua.PONNKN SPEEDY SQUADS At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-							<p>Read moreee</p>
-							<div class="des">
+	<div id="contain">
+		<div class="container" id="side">
+			<header>
+			<nav>
+				<ul id="head">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Notifications</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Others</a></li>
+				</ul>
+			<p id="chat"><img src="user.png" alt="chart" width="30"></p>
+			</nav>
+			</header>
+			<div id="one">
+			<div class="container">
+				<div id="image">
+					<img src="skate-1.png" id="img" width="500">
+					<h2>SPEEDY SQUADS</h2>
+				</div>
+				<div class="sid">
+					<div class="container">
+						<h2>PONNKN SPEEDY SQUADS</h2>
+						<p>APTNKyn 800-595-00</p>
+						<p>3 500 py6.</p>
+						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabo remagn ane aliquyam erat, sed diam voluptua.PONNKN SPEEDY SQUADS At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+						<p>Read moreee</p>
+						<div class="des">
 							<div class="desig">
-								<h3>Colors: </h3>
-								<ul>
-									<li><button onclick="fn1()" class="col" id="first"></button></li>
-									<li><button onclick="fn2()" class="col" id="second"></button></li>
-									<li><button onclick="fn3()" class="col" id="third"></button></li>
-									<li><button onclick="fn4()" class="col" id="fourth"></button></li>
-								</ul>
+							<h3>Colors: </h3>
+							<ul>
+								<li><button onclick="fn1()" class="col" id="first"></button></li>
+								<li><button onclick="fn2()" class="col" id="second"></button></li>
+								<li><button onclick="fn3()" class="col" id="third"></button></li>
+								<li><button onclick="fn4()" class="col" id="fourth"></button></li>
+							</ul>
 							</div>
+						</div>
+						<div class="last">
+							<div id="lst">
+							<label>Interested: </label><select name="">
+								<option value="">Victoria</option>
+								<option value="">A.A</option>
+							</select>
 							</div>
-							<div class="last">
-								<div id="lst">
-								<label>Interested: </label><select name="">
-									<option value="">Victoria</option>
-									<option value="">A.A</option>
-								</select>
-								</div>
-								<p id="click"><a href="#">Pleasant</a></p>
+							<p id="click"><a href="#">Pleasant</a></p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<aside>
-				<div class="ic"><p id="logo"><img src="group.png" alt="logo" width="30"></p></div>
-				<div class="log">
-					<ul>
-						<li><a href="#"><img src="facebook-logo.png" alt="fb" width="20"></li></a>
-						<li><a href="#"><img src="twitter.png" alt="tw" width="20"></li></a>
-						<li><a href="#"><img src="instagram.svg" alt="ld" width="20"></li></a>
-					</ul>
-				</div>
-			</aside>
 		</div>
+		<div id="aside">
+			<p id="logo"><img src="group.png" alt="logo" width="30"></p>
+			<div class="log">
+				<ul>
+					<li><a href="#"><img src="facebook-logo.png" alt="fb" width="20"></li></a>
+					<li><a href="#"><img src="twitter.png" alt="tw" width="20"></li></a>
+					<li><a href="#"><img src="instagram.svg" alt="ld" width="20"></li></a>
+				</ul>
+			</div>
+		</div>
+	</div>
 	</body>
+		<script type="text/javascript">
+			var rd1 = document.getElementById("first");
+			var rd2 = document.getElementById("second");
+			var rd3 = document.getElementById("third");
+			var rd4 = document.getElementById("fourth");
+			function fn1()
+				{
+					document.getElementById("contain").style.backgroundColor="#0392BF";
+					document.getElementById("image").style.backgroundColor="#0392BF";
+					document.getElementById("click").style.backgroundColor="#ED48BA";
+				}
+			function fn2()
+				{
+					document.getElementById("contain").style.backgroundColor="#ED48BA";
+					document.getElementById("image").style.backgroundColor="#ED48BA";
+					document.getElementById("click").style.backgroundColor="#FBEC06";
+					document.getElementById("select").style.backgroundColor="#ED48BA";
+				}
+			function fn3()
+				{
+					document.getElementById("contain").style.backgroundColor="#FBEC06";
+					document.getElementById("image").style.backgroundColor="#FBEC06";
+					document.getElementById("click").style.backgroundColor="ffffff";
+					document.getElementById("select").style.backgroundColor="#FBEC06";
+				}
+			function fn4()
+				{
+					document.getElementById("contain").style.backgroundColor="#ffffff";
+					document.getElementById("image").style.backgroundColor="#ffffff";
+					document.getElementById("click").style.backgroundColor="#FBEC06";
+					document.getElementById("select").style.backgroundColor="#ffffff";
+				}
+		</script>
 </html>				
