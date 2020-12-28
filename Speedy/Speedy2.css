@@ -11,6 +11,7 @@
 		float:left;
 		width:50%;
 	}
+
 	.sid{
 		float:right;
 		width:50%;
@@ -53,11 +54,15 @@
 	body{
 		position:fixed;
 	}
+	#tag{
+		font-size:50px;
+		width:400px;
+	}
 
 }
 body{
 	color:#B3D4E0;
-	font-family:cursive, sans-serif;
+	font-family:cursive;
 	background:#0392BF;
 }
 #contain{
@@ -81,16 +86,16 @@ nav ul{
 nav #chat{
 	float: right;
 }
-#image h2{
-	margin-top: -300px;
+#tag{
+	margin-top: -320px;
 	position:absolute;
 	margin-left:120px;
-	font-size: 50px;
-	width:400px;
+	font-size: 30px;
+	width:200px;
 	font-family:sans-serif;
 }
 #img{
-
+	margin-top:-100px;
 	width:100%;
 	height:auto;
 }
