@@ -25,9 +25,7 @@
 	width:100%;
 	margin-top:10px;
 	}
-	#img{
-		width:;
-	}
+	
 	#side{
 		width:95%;
 		float:right;
@@ -59,7 +57,11 @@
 }
 body{
 	color:#B3D4E0;
-	font-family:cursive;
+	font-family:cursive, sans-serif;
+	background:#0392BF;
+}
+#contain{
+	background:#0392BF;
 }
 li{
 	display:inline;
@@ -86,6 +88,11 @@ nav #chat{
 	font-size: 50px;
 	width:400px;
 	font-family:sans-serif;
+}
+#img{
+
+	width:100%;
+	height:auto;
 }
 .col{
 	width:25px;
