@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>The 2021 Frontend Developer Crash Course</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -108,4 +109,142 @@
             nav.classList.remove('menu-btn');
         })
 </script>
+=======
+    <link rel="stylesheet" href="KidsCode.css">
+    <title><img src="Images/v-and-dot.png" alt="KidsCode Logo"></img>KidsCode</title>
+</head>
+<body>
+    <div id="first"><p>This site was designed by Vickova.com website builder</p></div>
+    <header>
+        <section id="head">
+            <div id="v-dot">
+                <div id="dot"><img src="Images/v-and-dot.png" alt="KidsCode Logo"></img></div>
+                <div><p>KidsCode</p></div>
+            </div>
+            <div id="navigations">
+                <button onclick="fn1()" id="Ic"><img src="Images/Icon.png" alt="Icons" id="Icon"></button>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Our Programs</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="cloud">
+            <section id="top" >
+                <div class="half" id="fam">
+                    <img src="Images/Family Picture.webp" alt="Family Picture">
+                </div>
+                <div class="quart" id="top-message">
+                    <h2>KidsCode</h2>
+                    <p>Creating a brighter future</p>
+                    <p>The future lies in their hands...</p>
+                    
+                </div>
+            </section>
+            <section class="col">
+                <div>
+                    <div class="cent">
+                        <h2>Our Programs</h2>
+                        <p>Training Options</p>
+                    </div>
+                </div>
+                    <div class="peach-mess col">
+                        <div class="half peach-message">
+                            <p>Computer Building Workshop</p>
+                            <p>Jump In</p>
+                            <button class="but">Get in Touch</button>
+                        </div>
+                        <div class="quart">
+                            <img src="Images/images (1).jpeg" alt="image">
+                        </div>
+                    </div>
+            </section>
+            <section class="col">
+                <div class="half peach-mess">
+                    <div class="peach-mesage">
+                        <p>Better IT Course</p>
+                        <p>A Perfect Fit</p>
+                        <button class="but">Get in Touch</button>
+                    </div>
+                </div>
+                <div class="quart">
+                    <img src="Images/images (2).jpeg" alt="image">
+                </div>
+            </section>
+        </section>
+        <section class="col">
+            <div class="half cent">
+                <div class="white-message">
+                    <h2>About Us</h2>
+                    <p>
+                    Ever since opening our doors, 
+                    we’ve helped countless individuals achieve their career and life dreams. 
+                    We are committed to providing excellent education, training and resources so that our students will thrive in today’s competitive world. 
+                    With flexible program options and great instructors, we’re sure you’ll be satisfied with your education at KidsCode.
+                    </p>
+                </div>
+                <button class="but" id="about">
+                    Learn More
+                </button>
+            </div>
+            <div class="quart">
+                <img src="Images/images (3).jpeg" alt="image">
+                
+            </div>
+        </section>
+        <section class="col very-last">
+            <div id="girls" class="quart">
+                <img src="Images/images (5).jpeg" alt="image">
+            </div>
+            <div class="half" id="right">
+                <div class="cent"><h2>Contact</h2></div>
+                <form action="get">
+                    <div class="frm">
+                        <label for="name">Name*</label><br>
+                        <input type="name" name="name", id="contact" placeholder="Enter your name"><br></div>
+                    <div class="frm">
+                        <label for="email">Email*</label><br>
+                        <input type="Email" name="email" id="contact" placeholder="Enter your email"><br></div>
+                    <div class="frm">
+                        <label for="subject">Subject</label><br>
+                        <input type="Email" name="subject" id="contact" placeholder="Type the subject"><br>
+                    </div>
+                    <div class="frm">
+                        <label for="textarea">Message</label><br>
+                        <textarea name="textarea" id="message" cols="30" rows="10">Type your message here...</textarea><br>
+                    </div>
+                    <div><button class="frm" id="lst">Submit</button></div>
+                </form>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <p id="phone">08020585796</p>
+        <p id="last">©2021 by KidsCode. Proudly created with Html and Css</p>
+    </footer>
+    <script>
+        function fn1(){
+            let navigation = document.getElementById("nav");
+            let displaySetting = navigation.style.display;
+            if(displaySetting == 'block'){
+                navigation.style.display = "none";
+            }
+            else if(displaySetting == 'inline'){
+                navigation.style.display = "none";
+            }
+            else{
+                navigation.style.display = 'block'
+            }
+        }
+        
+    </script>
+</body>
+>>>>>>> ba5a699 (KidsCode Cademy)
 </html>
