@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 2021 Frontend Developer Crash Course</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#">Remeber<span>That</span></a>
+            <img id="mobile-cta" class="mobile-menu" src="Images/menu.svg" alt="Open Navigation">
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="Images/exit.svg" alt="Close navigation">
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+                <ul class="secondary-nav">
+                    <li><a href="#">Contact</a></li>
+                    <li class="go-premium-cta"><a href="#">Gp Premium</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <p class="subhead">Nitty &amp; Gritty</p>
+                <h1>A Task App That Doesn't Stink</h1>
+                <div class="hero-cta">
+                    <a href="#" class="primary-cta">Try for free</a>
+                    <a href="#" class="watch-video-cta">
+                        <img src="Images/watch.svg" alt="Watch a Video">Watch a Video
+                    </a>
+                </div>
+            </div>
+            <img src="Images/illustration.svg" class="hero-img" alt="illustration">
+        </div>
+    </section>
+    <section class="features-section">
+        <div class="container">
+            <ul class="features-list">
+                <li>Unlimited Tasks</li>
+                <li>SMS Task Reminder</li>
+                <li>Confetti Explosions Upon Tasks Completion</li>
+                <li>Social Media Announcement</li>
+                <li>Real Time Collaboration</li>
+                <li>Other awesome features</li>
+            </ul>
+            <img src="Images/holding-phone.jpg" alt="Man holding phone">
+        </div>
+    </section>
+    <section class="testimonials-section">
+        <div class="container">
+            <ul>
+                <li>
+                    <img src="Images/person.jpg" alt="">
+                    <blockquote>When will the sun become like the star that never produce it. If the Stars were human they would have pulled down the sun forgetting that without the sun they literarily can't survive</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+                <li>
+                    <img src="Images/person.jpg" alt="">
+                    <blockquote>When will the sun become like the star that never produce it. If the Stars were human they would have pulled down the sun forgetting that without the sun they literarily can't survive</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+                <li>
+                    <img src="Images/person.jpg" alt="">
+                    <blockquote>When will the sun become like the star that never produce it. If the Stars were human they would have pulled down the sun forgetting that without the sun they literarily can't survive</blockquote>
+                    <cite>- Jane Doe</cite>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-left">
+                <h2>Contact</h2>
+                <form action="">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+                    <label for="message">Message</label>
+                    <textarea name="nessage" id="message" cols="30" rows="10"></textarea>
+                    
+                    <input type="submit" class="send-messgae" value="Send message">
+                </form>
+            </div>
+            <div class="contact-right">
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d105752.75146940978!2d-118.421753!3d34.0753205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc04d6d147ab%3A0xd6c7c379fd081ed1!2sBeverly%20Hills%2C%20CA%2C%20USA!5e0!3m2!1sen!2sng!4v1634774401356!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" SameSite='None'></iframe>
+        </div>
+    </section>
+</body>
+<script>
+    const mobileBtn = document.getElementById("mobile-cta")
+        nav = document.querySelector('nav')
+        mobileBtnExit = document.getElementById("mobile-exit");
+        mobileBtn.addEventListener('click', () => {
+            // nav.style.display  = 'block';
+            // or
+            nav.classList.add('menu-btn');
+        })
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+</script>
+</html>
