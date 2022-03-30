@@ -169,10 +169,8 @@ a{
     color: black;
 }
 a:hover{
-    font-size: small;
     cursor: pointer;
-    color: #09374e;
-    background-color: rgb(252, 225, 216);
+    color: rgb(252, 225, 216);
     border-radius: 2px;
 }
 button:hover{
@@ -284,8 +282,6 @@ input:focus, textarea:focus{
 @media only screen and (max-width:760px){
     #nav{
         display: none;
-        border: 1px solid #09374e;
-        border-radius: 3px;
         padding: 5px;
     }
     #nav li{
